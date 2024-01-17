@@ -1,0 +1,120 @@
+body {
+    position: relative;
+    background-image: linear-gradient( #005091, #f815b8 );
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   }
+   
+   .said{
+   position: absolute;
+   width: 370px;
+   height: 40px;
+   background-color: rgb(29, 29, 29);
+   color: aliceblue;
+   text-align: center;
+   border-radius: 20px;
+   grid-template-columns: repeat(3, 0fr);
+   grid-template-rows: repeat(3, 0fr);
+   left: 36%;
+   transform: translate(-50% );
+   top: 8.6%;
+   }
+   .said:hover {
+    background-color: #de19db;
+    color: black;
+   }
+   
+   .saalali{
+    position: absolute;
+    width: 370px;
+    height: 40px;
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    grid-template-columns: repeat(3, 0fr);
+    grid-template-rows: repeat(3, 0fr);
+    left: 64%;
+    transform: translate(-50% );
+    top: 8.6%;
+    }
+    .saalali:hover {
+     background-color: #ee1111;
+     color: black;
+    }
+    /* <-----1-----> */
+   
+    .boit1{
+     position: absolute;
+    width: 750px;
+    height: 500px;
+    background-color: rgb(29, 29, 29);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    grid-template-columns: repeat(3, 0fr);
+    grid-template-rows: repeat(3, 0fr);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50% );
+    }
+    .btn1{
+     position: absolute;
+     width: 70px;
+     height: 45px;
+     background-color: aliceblue;
+     color: black;
+     text-align: center;
+     border-radius: 20px;
+     grid-template-columns: repeat(3, 0fr);
+     grid-template-rows: repeat(3, 0fr);
+     bottom: 2%;
+     left: 94%;
+     transform: translate(-50% );
+   }
+   
+    .inpt{
+     position: absolute;
+     width: 650px;
+     height: 40px;
+     background-color: rgb(241, 240, 240);
+     color: rgb(0, 0, 0);
+     text-align: center;
+     border-radius: 20px;
+     grid-template-columns: repeat(3, 0fr);
+     grid-template-rows: repeat(3, 0fr);
+     bottom: 2%;
+     left: 45%;
+     transform: translate(-50% );
+    }
+    .btn2{
+        position: absolute;
+        width: 70px;
+        height: 45px;
+        background-color: aliceblue;
+        color: black;
+        text-align: center;
+        border-radius: 20px;
+        grid-template-columns: repeat(3, 0fr);
+        grid-template-rows: repeat(3, 0fr);
+        bottom: 12%;
+        left: 50%;
+        top: 0;
+        transform: translate(-50% );
+    }
+    .said-message{
+        background-color: rgb(239, 221, 25);
+        width: 360px;
+        height: 30px;
+        border-radius: 20px;
+        transform: translate(7%);
+    }
+   .saalali-message{
+    background-color: #20abec;
+    width: 360px;
+    height: 30px;
+    border-radius: 20px;
+    transform: translate(100%);
+   }
